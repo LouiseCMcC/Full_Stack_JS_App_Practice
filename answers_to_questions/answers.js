@@ -34,5 +34,8 @@ const { fileURLToPath } = require("url")
 // ## Extension
 
 // Why do we need to use [`ObjectId`](https://mongodb.github.io/node-mongodb-native/api-bson-generated/objectid.html) from the MongoDB driver?
+//We need to use 'object Id' so that our methods can check for equality of id's of objects in order to
+//perform the actions we want them to perform on the requested object, which is identified by its ID.
 
 // Add to your diagram the dataflow for removing a game.
+
